@@ -65,6 +65,11 @@
     </style>
 </head>
 <body>
+    <script>
+        if (!document.referrer.includes(window.location.host)) {
+            window.location.href = 'login.html';
+        }
+    </script>
     <header>
         <h1>The Future of Desire:</h1>
         <div class="subtitle">Alternative Video and the Communications Revolution</div>
